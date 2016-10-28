@@ -1,0 +1,37 @@
+module.exports = {
+  "data":[
+    {
+      "id":"01",
+      "img":"/images/search-01.png",
+      "text":"法国婕珞芙橙光清透润肤乳特别漂亮，我喜欢它这种大气简约的包装风格。这…",
+      "headerimg":"images/headerimg01.png",
+      "name":"美小芽",
+      "num":"49"
+    },
+    {
+      "id":"02",
+      "img":"/images/search-02.png",
+      "text":"法国婕珞芙橙光清透润肤乳特别漂亮，我喜欢它这种大气简约的包装风格。这…",
+      "headerimg":"images/headerimg02.png",
+      "name":"vivienrose",
+      "num":"167"
+    },
+    {
+      "id":"03",
+      "img":"/images/search-03.png",
+      "text":"法国婕珞芙橙光清透润肤乳特别漂亮，我喜欢它这种大气简约的包装风格。这…",
+      "headerimg":"images/headerimg03.png",
+      "name":"MARY小透明",
+      "num":"14"
+    },
+    {
+      "id":"04",
+      "img":"/images/search-04.png",
+      "text":"法国婕珞芙橙光清透润肤乳特别漂亮，我喜欢它这种大气简约的包装风格。这…",
+      "headerimg":"images/headerimg04.png",
+      "name":"桂圆有点甜",
+      "num":"47"
+    }
+
+  ]
+}

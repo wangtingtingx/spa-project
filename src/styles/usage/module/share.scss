@@ -1,0 +1,67 @@
+.share-container{
+  height:100%;
+  width:100%;
+  @include flexbox();
+  @include flex-direction(column);
+  @include align-items(center);
+  .share-close{
+    margin-top:0.2rem;
+    height:0.3rem;
+    width:84%;
+    text-align:left;
+    font-size:0.20rem;
+    color:#999;
+  }
+  .share-bt{
+    height:2.2rem;
+    line-height:2.2rem;
+    color:$baseColor;
+    font-size:0.4rem;
+  }
+  .input-box{
+    height:1rem;
+    width:80%;
+    color:#aaa;
+    line-height:0.5rem;
+    input{
+      border:none;
+      width:100%;
+      height:0.5rem;
+      background:none;
+    }
+    :nth-child(1){
+      border-bottom:0.01rem solid #eee;
+    }
+    span{
+      display:block;
+      height:0.3rem;
+      width:100%;
+      :nth-child(1){
+        width:70%;
+      }
+      :nth-child(2){
+        margin-top:0.01rem;
+        width:30%;
+        float:right;
+        color:$baseColor;
+        border-bottom:0.01rem solid #eee;
+      }
+    }
+  }
+  .btn{
+    height:0.42rem;
+    width:76%;
+    background:none;
+    border-radius:0.4rem;
+    border:0.01rem solid $baseColor;
+    margin:0.30rem 0 0.2rem 0;
+    font-size:0.18rem;
+  }
+  p {
+    margin:0 0  0.4rem 0;
+    a{
+    color:$baseColor;
+     }
+  }
+  i{color:#aaa;}
+}
